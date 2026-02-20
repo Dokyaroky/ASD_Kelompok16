@@ -1,0 +1,97 @@
+Nasi Goreng,Makanan,15000,20
+Mie Goreng,Makanan,14000,25
+Ayam Bakar,Makanan,20000,15
+Ayam Goreng,Makanan,18000,18
+Sate Ayam,Makanan,22000,12
+Sate Kambing,Makanan,30000,10
+Bakso,Makanan,13000,30
+Mie Ayam,Makanan,12000,28
+Soto Ayam,Makanan,17000,16
+Soto Betawi,Makanan,25000,8
+Rendang,Makanan,35000,7
+Gulai Ayam,Makanan,23000,9
+Rawon,Makanan,27000,6
+Nasi Uduk,Makanan,10000,22
+Nasi Kuning,Makanan,12000,19
+Lontong Sayur,Makanan,11000,17
+Nasi Campur,Makanan,20000,12
+Nasi Padang,Makanan,25000,10
+Ayam Geprek,Makanan,18000,20
+Seblak,Makanan,15000,22
+Capcay,Makanan,18000,12
+Fuyunghai,Makanan,22000,9
+Steak Ayam,Makanan,30000,6
+Steak Sapi,Makanan,45000,5
+Spaghetti,Makanan,25000,11
+Mac and Cheese,Makanan,27000,8
+Burger,Makanan,22000,15
+Cheeseburger,Makanan,24000,13
+Hotdog,Makanan,20000,14
+Fish and Chips,Makanan,28000,7
+Ramen,Makanan,28000,9
+Udon,Makanan,26000,8
+Sushi,Makanan,30000,10
+Dimsum,Makanan,20000,15
+Kebab,Makanan,20000,16
+Shawarma,Makanan,22000,11
+Bubur Ayam,Makanan,12000,23
+Indomie Rebus,Makanan,10000,30
+Indomie Goreng,Makanan,10000,32
+Telur Dadar,Makanan,6000,40
+Es Teh,Minuman,5000,60
+Es Jeruk,Minuman,7000,45
+Jus Alpukat,Minuman,15000,18
+Jus Mangga,Minuman,14000,17
+Jus Jeruk,Minuman,13000,16
+Kopi Hitam,Minuman,8000,30
+Kopi Susu,Minuman,10000,28
+Cappuccino,Minuman,18000,14
+Latte,Minuman,19000,12
+Matcha Latte,Minuman,20000,10
+Air Mineral,Minuman,4000,100
+Es Campur,Minuman,12000,25
+Es Teler,Minuman,15000,17
+Teh Tarik,Minuman,12000,20
+Thai Tea,Minuman,15000,18
+Green Tea,Minuman,10000,22
+Lemon Tea,Minuman,11000,21
+Milkshake Coklat,Minuman,18000,13
+Milkshake Stroberi,Minuman,18000,12
+Smoothie Pisang,Minuman,17000,15
+Tahu Goreng,Snack,8000,40
+Tempe Goreng,Snack,7000,35
+Tahu Isi,Snack,9000,27
+Risoles,Snack,8500,24
+Donat,Snack,6000,50
+Roti Bakar,Snack,12000,21
+Pisang Goreng,Snack,10000,23
+Martabak Telur,Snack,20000,10
+Martabak Manis,Snack,25000,9
+Pempek,Snack,16000,20
+Tekwan,Snack,15000,13
+Cilok,Snack,8000,33
+Batagor,Snack,12000,21
+Siomay,Snack,14000,19
+Kerupuk,Snack,3000,80
+Pudding Coklat,Snack,10000,18
+Pudding Vanila,Snack,10000,16
+Brownies,Snack,20000,9
+Cake Coklat,Snack,25000,7
+Cheesecake,Snack,30000,6
+Croissant,Snack,18000,12
+Sandwich,Snack,15000,14
+Wrap Ayam,Snack,17000,13
+Takoyaki,Snack,15000,20
+Onigiri,Snack,12000,18
+Sosis Bakar,Snack,10000,27
+Bakwan,Snack,5000,45
+Perkedel,Snack,7000,34
+Salad Buah,Snack,15000,18
+Salad Sayur,Snack,14000,16
+Sup Krim Jagung,Makanan,13000,15
+Sup Tomat,Makanan,12000,14
+Nasi Liwet,Makanan,18000,14
+Nasi Kebuli,Makanan,30000,7
+Bubur Kacang Hijau,Snack,10000,20
+Kentang Goreng,Snack,15000,26
+Chicken Nugget,Snack,18000,19
