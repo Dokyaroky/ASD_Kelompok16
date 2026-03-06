@@ -121,3 +121,65 @@ def hapus_menu(stock_dict):
         print("Menu tidak ditemukan.")
 
 
+def urutkan_menu(stock_dict):
+    urutan = input("Urutkan berdasarkan (nama/jenis/harga/stok): ").strip().lower()
+    if urutan not in ["nama", "jenis", "harga", "stok"]:
+        print("Pilihan urutan tidak valid.")
+        return
+    sorted_menu = sorted(stock_dict.items(), key=lambda x: x[1][urutan.capitalize()])
+    for i, (nama, data) in enumerate(sorted_menu, start=1):
+        print(f"{i}. {data['Nama']} | Jenis : {data['Jenis']} | Harga : {data['Harga']} | Stok : {data['Stok']}")
+
+
+def simpan_data():
+    simpan_file(file, stock_dict)
+
+
+def clear_screen():
+    import os
+    os.system('cls' if os.name == 'nt' else 'clear')
+
+
+def main():
+    menu = baca_file(file)
+
+    while True:
+        print("\n=== MENU CAFE ===")
+        print("1. Tampilkan semua menu")
+        print("2. Cari menu")
+        print("3. Tambah menu")
+        print("4. Urutkan menu")
+        print("5. Ubah stok menu")
+        print("6. Hapus menu")
+        print("7. Ubah harga menu")
+        print("8. Simpan ke file")
+        print("0. Keluar")
+
+        pilihan = input("Silahkan pilih: ").strip()
+
+        if pilihan == "1":
+            tampilkan_semua(menu)
+        elif pilihan == "2":
+            cari_menu(menu)
+        elif pilihan == "3":
+            tambah_menu(menu)
+        elif pilihan == "4":
+            urutkan_menu(menu)
+        elif pilihan == "5":
+            ubah_stok(menu)
+        elif pilihan == "6":
+            hapus_menu(menu)
+        elif pilihan == "7":
+            ubah_harga(menu)
+        elif pilihan == "8":
+            simpan_file(file, menu)
+            print("Data berhasil disimpan.")
+        elif pilihan == "0":
+            print("Terima kasih telah menggunakan program ini!")
+            break
+        else:
+            print("Pilihan tidak valid.")
+
+
+if _name_ == "_main_":
+    main()
