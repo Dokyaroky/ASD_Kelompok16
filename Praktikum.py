@@ -44,3 +44,15 @@ def tampilkan_semua(stock_dict):
     print("=" * 62)
     for i, (key, data) in enumerate(stock_dict.items(), start=1):
         print(f"{str(i)+'.' : <5} {data['Nama'] : <25} | {data['Jenis'] : <10} | {data['Harga'] : <8} | {data['Stok'] : <10}")
+
+
+def cari_menu(stock_dict):
+    nama = input("\nMasukkan nama menu: ").strip().lower()
+    if nama in stock_dict:
+        data = stock_dict[nama]
+        print("Menu ditemukan!")
+        print(f"Menu : {data['Nama']} | Jenis : {data['Jenis']} | Harga : {data['Harga']} | Stok : {data['Stok']}")
+    else:
+        print("Menu tidak ditemukan!")
+
+
