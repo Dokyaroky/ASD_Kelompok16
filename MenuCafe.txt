@@ -95,3 +95,4 @@ Nasi Kebuli,Makanan,30000,7
 Bubur Kacang Hijau,Snack,10000,20
 Kentang Goreng,Snack,15000,26
 Chicken Nugget,Snack,18000,19
+Ilham,Snack,20000,5
